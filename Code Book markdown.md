@@ -6,11 +6,36 @@ This file describes the code for creation of tidy data set from the raw data
 
 ## Prerequisites
 
+### Data source
+
 This code requires pre downloaded data source
 If not downloaded, download from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Download syntax :
+#### Variables used
+
+- features          consists of data from 'features.txt'
+- activities        consists of data from 'activity_lables.txt'
+- subject_test      consists of data from 'subject_test.txt'
+- subject_train     consists of data from 'subject_train.txt'
+- x_test            consists of data from 'x_test.txt'
+- y_test            consists of data from 'y_test.txt'
+- x_train           consists of data from 'x_train.txt'
+- y_train           consists of data from 'y_train.txt'
+- X                 consists of data from rbind of x_train and x_test
+- Y                 consists of data from rbind of y_train and y_test
+- subject           consists of data from rbind of subject_train and subject_test
+- Merged_Data       consists of data from cbind of X, Y and subject
+- TidyData          consists of data from cleaning of Merged_Data
+
+
+
+
+
+
+
+
+#### Download syntax :
 
 URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
