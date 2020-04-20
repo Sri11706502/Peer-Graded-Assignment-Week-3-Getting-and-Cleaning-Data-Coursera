@@ -31,4 +31,8 @@ Data for the project:
 
 ## Code book
 
-Code book is available to be viewed giving the description of the vafiables used and various steps followed. It has been saved as 'Code Book markdown.md'
+Code book is available to be viewed giving the description of the variables used and various steps followed. It has been saved as 'Code Book markdown.md'
+
+# R code
+
+The R code has been implemented in R studio and the syntax of the code is saved in 'run_analysis.R'.
